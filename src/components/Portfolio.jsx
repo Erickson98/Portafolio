@@ -1,7 +1,7 @@
 import React from "react";
 import sil from "../assets/portfolio/sil.png";
 import sv from "../assets/portfolio/sv.png";
-import navbar from "../assets/portfolio/portofolio.png";
+import portafolio from "../assets/portfolio/portofolio.png";
 import appcrud from "../assets/portfolio/appcrud.png";
 
 const Portfolio = () => {
@@ -24,15 +24,15 @@ const Portfolio = () => {
       src: appcrud,
       url: "https://votacionsvr.senado.com/Login",
       enable: true,
-      source: ""
+      source: "https://github.com/Erickson98/AppCrud.git"
 
     },
     {
       id: 4,
-      src: navbar,
+      src: portafolio,
       url: "https://votacionsvr.senado.com/Login",
       enable: true,
-      source: ""
+      source: "https://github.com/Erickson98/Portafolio.git"
     }
   ];
 

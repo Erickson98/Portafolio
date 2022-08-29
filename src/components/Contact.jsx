@@ -1,5 +1,10 @@
 import React from "react";
 
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+
+
 const Contact = () => {
   return (
     <div
@@ -43,6 +48,14 @@ const Contact = () => {
               Let's talk
             </button>
           </form>
+        </div>
+        <div className="lg:hidden flex flex-row mg-4 p-4 justify-center max-w-screen-lg mx-auto h-full ">
+
+          <button className="m-4"> <a href="https://www.linkedin.com/in/erickson-ruck-4339ab13a/"><FaLinkedin size={30} /></a></button>
+          <button className="m-4"> <a href="https://github.com/Erickson98" ><FaGithub size={30} /></a></button>
+          <button className="m-4"> <a href="mailto:erickson.ruck07@gmail.com"><HiOutlineMail size={30} /></a></button>
+          <button className="m-4"> <a href="/resume.pdf" download={true}><BsFillPersonLinesFill size={30} /></a></button>
+
         </div>
       </div>
     </div>
