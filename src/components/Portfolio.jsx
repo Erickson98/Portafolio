@@ -22,15 +22,15 @@ const Portfolio = () => {
     {
       id: 3,
       src: appcrud,
-      url: "https://votacionsvr.senado.com/Login",
+      url: "https://shiny-tanuki-6e7bda.netlify.app",
       enable: true,
-      source: "https://github.com/Erickson98/AppCrud.git"
+      source: "https://github.com/Erickson98/appCrud-Front.git"
 
     },
     {
       id: 4,
       src: portafolio,
-      url: "https://votacionsvr.senado.com/Login",
+      url: "https://portafolio-six-azure.vercel.app",
       enable: true,
       source: "https://github.com/Erickson98/Portafolio.git"
     }
